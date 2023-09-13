@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium';
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:#FFC436;
+}
+nav{
+    display:flex ;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+   display:inline-block;
+   list-style: none;
+   margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav img{
+    width: 125px;
+    position: relative;
+    left: -40%;
+}
+
+ nav div div{
+    
+    /* border: 3px solid red; */
+    position: relative;   
+    font-size: 200%;
+    left: -40px;
+    top: 0px;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+.detel{
+     top: 60px; 
+     left: 60px;
+     position: relative;
+}
+
+.detel h1{
+    font-size: 50px;
+    color:black;
+    margin-bottom: 20px;
+}
+
+span{
+    color:black;
+}
+
+.detel p{
+color: black;
+font-size: 20px;
+line-height: 30PX;
+}
+
+.detel a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:white ;
+    display: inline-block;
+    margin: 30PX;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.back{  
+     position: relative; 
+     width: 45% ; 
+     height: 80%; 
+     left: 200px; 
+     top: 50px;  
+  }   
+
+.bc{
+    position: relative;
+    top: 0%;
+    width: 30%;
+    height: 65%;
+    left: -55px;
+    bottom: 100%;
+}
+
+.images:hover .back{
+    bottom: 40px;
+}
+
+.images:hover .bc{
+    left: -55px;
+}
